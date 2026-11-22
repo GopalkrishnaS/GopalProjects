@@ -40,9 +40,9 @@ int main()
     }
 
     const SignalPhase phases[] = {
-        {Light::Red, "RED", "STOP", 3},
-        {Light::Green, "GREEN", "GO", 3},
-        {Light::Yellow, "YELLOW", "SLOW DOWN", 2}
+        {Light::Red, "RED", "STOP", 10},
+        {Light::Green, "GREEN", "GO", 10},
+        {Light::Yellow, "YELLOW", "SLOW DOWN", 3}
     };
 
     for (int cycle = 1; cycle <= cycles; ++cycle) {
